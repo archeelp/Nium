@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+nav {
+  background-color: #282c34; /* Dark background for nav */
+  padding: 10px;             /* Padding around nav items */
+  border-radius: 5px;       /* Rounded corners */
+  margin-bottom: 20px;      /* Space below the nav */
+}
+
+nav a {
+  color: #61dafb;           /* Link color */
+  text-decoration: none;    /* Remove underline */
+  margin: 0 15px;          /* Horizontal spacing between links */
+  font-weight: bold;        /* Make links bold */
+  transition: color 0.3s;   /* Smooth color transition */
+}
+
+nav a:hover {
+  color: #21a1f1;           /* Change color on hover */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+input,
+textarea {
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid #ccc;   /* Border for inputs */
+  border-radius: 4px;       /* Rounded corners for inputs */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #61dafb; /* Button background */
+  border: none;              /* Remove default border */
+  border-radius: 4px;       /* Rounded corners for button */
+  color: white;              /* Button text color */
+  font-weight: bold;         /* Make button text bold */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+button:hover {
+  background-color: #21a1f1; /* Darker shade on hover */
+}
+
+/* SearchResume.css */
+.results {
+  margin-top: 20px;  /* Space above results */
+}
+
+.resume-item {
+  background-color: #f9f9f9;  /* Light background for each resume item */
+  border: 1px solid #ccc;     /* Border for items */
+  border-radius: 5px;         /* Rounded corners */
+  padding: 10px;              /* Padding for items */
+  margin: 10px 0;             /* Vertical margin between items */
+  text-align: left;           /* Left align text */
+}
+
+.resume-details ul,
+.results ul {
+  list-style-type: none; /* Removes bullet points */
+  padding: 0;            /* Removes default padding */
+  margin: 0;             /* Removes default margin */
+}
+
+.resume-item p {
+  margin: 5px 0;         /* Space between paragraphs */
+}
